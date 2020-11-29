@@ -5,6 +5,7 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
+    "start": "ts-node src/index.ts",
     "serve": "nodemon -e ts",
     "db": "docker run --rm -p 27017:27017 mongo:4.2.11",
     "seed": "ts-node src/seeds.ts"
